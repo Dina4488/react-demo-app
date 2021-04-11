@@ -1,17 +1,23 @@
 class ActorModel {
-    constructor(firstNamr, lastName,birthday, image,link) {
-        this.firstNamr = firstNamr;
+    constructor(firstName, lastName,birthday, image,link) {
+        this.firstName = firstName;
         this.lastName = lastName;
         this.birthday = birthday;
         this.image = image;
         this.link = link;
     }
 
-    getAge() {
-        const currentYear = new Date().getFullYear();
-        const age = currentYear - this.birthday;
-        return age;
-    }
+    getAge() {       
+            var today = new Date();
+            var birthDate = new Date(this.birthday);
+            var age = today.getFullYear() - birthDate.getFullYear();
+            var m = today.getMonth() - birthDate.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            return age;
+        }
+  
 }
 
 export default ActorModel;
