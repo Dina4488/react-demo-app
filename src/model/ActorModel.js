@@ -1,4 +1,5 @@
 class ActorModel {
+    
     constructor(firstName, lastName,birthday, image,link) {
         this.firstName = firstName;
         this.lastName = lastName;
