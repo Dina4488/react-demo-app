@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Card, Col ,Row} from 'react-bootstrap';
 
-function ActorRow({actor}) {
+function ActorCard({actor}) {
     return (
                        
         <Col xs={6} md={3}>
@@ -20,4 +20,4 @@ function ActorRow({actor}) {
     );
 }
 
-export default ActorRow;
+export default ActorCard;
