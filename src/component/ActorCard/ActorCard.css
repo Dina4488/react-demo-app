@@ -1,0 +1,26 @@
+.class-card  .fixName{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.class-card .fixName > a:hover{
+    text-decoration: none;
+}
+
+.class-card .fixName > a {
+    color: white;
+}
+.class-card{
+    text-align: center;
+}
+
+.class-card .body {
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.class-card {
+    border: none ;
+}

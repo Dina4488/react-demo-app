@@ -4,7 +4,7 @@ import { Button, Navbar, NavDropdown, Form , FormControl} from 'react-bootstrap'
 function NavBar({filterText , setFilterText, sortBy ,setSortBy }) {
     return (       
     <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home"></Navbar.Brand>
+        {/* <Navbar.Brand href="#home"></Navbar.Brand>
         <Form inline>
             <FormControl type="text" className="mr-sm-2"
                 value={filterText} onChange={(e) => setFilterText(e.target.value)} 
@@ -15,7 +15,7 @@ function NavBar({filterText , setFilterText, sortBy ,setSortBy }) {
                     <option value="lastName">Last Name</option>
                     <option value="age">age</option>
                 </FormControl>
-        </Form>                     
+        </Form>                      */}
     </Navbar>
         
     );

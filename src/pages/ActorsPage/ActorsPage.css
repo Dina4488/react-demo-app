@@ -1,3 +1,13 @@
-.filterInp {
-    width: 350px;
+
+
+.class-container > .filter {
+    padding-bottom: 15px;
+}
+
+.class-container {
+    background-color: black;
+}
+
+.class-container > h1 {
+    color: #F5C518;
 }
