@@ -1,0 +1,26 @@
+.class-movie  .fixName{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.class-movie .fixName > a:hover{
+    text-decoration: none;
+}
+
+.class-movie .fixName > a {
+    color: white;
+}
+.class-movie{
+    text-align: center;
+}
+
+.class-movie .body {
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.class-movie {
+    border: none ;
+}
