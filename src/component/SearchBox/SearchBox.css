@@ -6,6 +6,7 @@
 
 .c-searchbox {
     position: relative;
+    margin: 15px;
 }
 
 .c-searchbox > .result-box {

@@ -16,11 +16,12 @@
     text-align: center;
 }
 
-.class-movie .body {
-    background-color: #1A1A1A;
-    color: white;
-}
+
 
 .class-movie {
     border: none ;
+}
+
+.class-movie  .card-body >.card-text > span  {
+    display: block;
 }
