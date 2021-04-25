@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button, Navbar, NavDropdown, Form , FormControl, Nav} from 'react-bootstrap';
+import { Navbar, Nav} from 'react-bootstrap';
 
-function NavBar({filterText , setFilterText, sortBy ,setSortBy }) {
+function NavBar() {
     return (       
         <Navbar bg="light" expand="lg">
         <Navbar.Brand href="/">Home</Navbar.Brand>
