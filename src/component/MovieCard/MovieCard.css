@@ -1,27 +1,16 @@
-.class-movie  .fixName{
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-
-.class-movie .fixName > a:hover{
-    text-decoration: none;
-}
-
-.class-movie .fixName > a {
-    color: white;
-}
-.class-movie{
-    text-align: center;
-}
-
-
-
 .class-movie {
-    border: none ;
+    display: flex;
+    flex-direction: row;
+    border: solid #F5C518;
+    margin-top: 10px;
+    width: -webkit-fill-available;
 }
 
-.class-movie  .card-body >.card-text > span  {
-    display: block;
+img {
+    width: 20%;
+}
+
+.class-movie .fixName  {
+    color: white;
+    margin-left: 20px;
 }
